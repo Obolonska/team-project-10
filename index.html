@@ -56,43 +56,40 @@
           </button>
         </div>
         <button type="button" class="burger-btn">
-          <svg class="burger-icon" width="40" height="40">
+          <svg class="burger-icon" width="40" height="40" data-menu-open>
             <use href="./img/icons.svg#icon-burger"></use>
           </svg>
         </button>
       </div>
-      <!-- <div class="overlay">
-        <div class="container-mobile is-open">
-          <div class="container header-wrapper">
-            <button type="button" class="mob-menu-close">
-              <svg class="icon-close" width="32" height="32">
-                <use href="./img/icons.svg#icon-close"></use>
-              </svg>
-            </button>
-            <div class="mob-nav">
-              <ul class="mob-nav-list">
-                <li class="mob-nav-item">
-                  <a class="mobile-menu-link" href="#how-it-works-section"
-                    >How It Works</a
-                  >
-                </li>
-                <li class="mob-nav-item">
-                  <a class="mobile-menu-link" href="#vegetables-section"
-                    >Vegetables</a
-                  >
-                </li>
-                <li class="mob-nav-item">
-                  <a class="mobile-menu-link" href="#reviews-section"
-                    >Reviews</a
-                  >
-                </li>
-              </ul>
-              
-              <div class="container-main_cta"></div><a class="main_cta" href="#your-order-section">Shop now</a></div>
-            </nav>
+      <div class="tablet-bg" data-menu>
+        <div class="header-menu">
+          <button type="button" class="mob-menu-close" data-menu-close>
+            <svg class="icon-close" width="32" height="32">
+              <use href="./img/icons.svg#icon-close"></use>
+            </svg>
+          </button>
+          <nav class="mob-navig">
+            <ul class="mob-nav-list">
+              <li class="mob-nav-item">
+                <a class="mobile-menu-link" href="#how-it-works-section"
+                  >How It Works</a
+                >
+              </li>
+              <li class="mob-nav-item">
+                <a class="mobile-menu-link" href="#vegetables-section"
+                  >Vegetables</a
+                >
+              </li>
+              <li class="mob-nav-item">
+                <a class="mobile-menu-link" href="#reviews-section">Reviews</a>
+              </li>
+            </ul>
+          </nav>
+          <div class="container-main_cta">
+            <a class="main_cta" href="#your-order-section">Shop now</a>
           </div>
         </div>
-      </div> -->
+      </div>
     </header>
 
     <main>
@@ -615,5 +612,6 @@
     </footer>
 
     <!-- <script type="module" src="./main.js"></script> -->
+    <script src="./js/menu.js"></script>
   </body>
 </html>
